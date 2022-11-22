@@ -9,3 +9,7 @@ Use this command to build an executable on the parent folder of this solution.
 ```powershell
 dotnet publish .\StepperController\StepperController.csproj -o '..\Stepper Controller'
 ```
+
+## App user interface
+
+![screenshot](./screenshot.png)
