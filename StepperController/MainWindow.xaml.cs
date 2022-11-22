@@ -24,5 +24,15 @@ namespace StepperController
         {
             InitializeComponent();
         }
+
+        private void BtnSimpleCw_OnClick(object sender, RoutedEventArgs e)
+        {
+            TxtMode.Text = "Simple step (clockwise)";
+        }
+
+        private void BtnSimpleCc_OnClick(object sender, RoutedEventArgs e)
+        {
+            TxtMode.Text = "Simple step (counterclockwise)";
+        }
     }
 }
