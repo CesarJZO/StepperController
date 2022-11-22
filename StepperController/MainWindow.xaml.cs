@@ -34,5 +34,25 @@ namespace StepperController
         {
             TxtMode.Text = "Simple step (counterclockwise)";
         }
+
+        private void BtnFullCw_OnClick(object sender, RoutedEventArgs e)
+        {
+            TxtMode.Text = "Full step (clockwise)";
+        }
+
+        private void BtnFullCc_OnClick(object sender, RoutedEventArgs e)
+        {
+            TxtMode.Text = "Full step (counterclockwise)";
+        }
+
+        private void BtnHalfCw_OnClick(object sender, RoutedEventArgs e)
+        {
+            TxtMode.Text = "Half step (clockwise)";
+        }
+
+        private void BtnHalfCc_OnClick(object sender, RoutedEventArgs e)
+        {
+            TxtMode.Text = "Half step (counterclockwise)";
+        }
     }
 }
